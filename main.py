@@ -1,6 +1,6 @@
 def palindrom(slowo):
-    for letter in slowo:
-        if slowo[0]==slowo[-1]:
+    for i in range(len(slowo)):
+        if slowo[i]==slowo[-i-1]:
             pass
         else:
             return False
